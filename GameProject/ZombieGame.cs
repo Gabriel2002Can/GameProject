@@ -75,7 +75,7 @@ public class ZombieGame : Form
     private void openMenu()
     {
         gameTimer.Stop();
-        MessageBox.Show("Hello! This is the Top Down Zombie Shooter Game!\r\n\nThere are some basic concepts to play this game!\r\nYou can control your character's movement using the wasd keys from your keyboard.\r\nYou can control your character's aim pointing with your mose to where you want to aim.\r\nAnd you can shoot with the spaceBar key.\r\n\nThe game has 5 waves, each wave will have more zombies than the previous one.\r\nThe game will end when you pass all five waves.\r\nTo clear a wave , you need to kill all the zombies.\r\nYour character have 4 points of Health, and you will lose one if you get hit by a zombie.\r\n\r\nIf you complete the game, or if you lose all of your Health, you will be asked if you want to restart the game.\r\n\r\nHave fun!");
+        MessageBox.Show("Luis Gabriel Stedile Portella\nW0490083\n\n\nHello! This is the Top Down Zombie Shooter Game!\r\n\nThere are some basic concepts to play this game!\r\nYou can control your character's movement using the wasd keys from your keyboard.\r\nYou can control your character's aim pointing with your mose to where you want to aim.\r\nAnd you can shoot with the spaceBar key.\r\n\nThe game has 5 waves, each wave will have more zombies than the previous one.\r\nThe game will end when you pass all five waves.\r\nTo clear a wave , you need to kill all the zombies.\r\nYour character have 4 points of Health, and you will lose one if you get hit by a zombie.\r\n\r\nIf you complete the game, or if you lose all of your Health, you will be asked if you want to restart the game.\r\n\r\nHave fun!");
         gameTimer.Start();
     }
 
